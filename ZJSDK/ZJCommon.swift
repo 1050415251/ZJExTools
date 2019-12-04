@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 //let APP = UIApplication.shared.delegate as! AppDelegate
-
+//ppp
 let APPVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"
 
 /// iPhone 为 True 其他为 False
