@@ -11,7 +11,7 @@ import UIKit
 
 extension UIView {
 
-    func drawImage() -> UIImage? {
+    public func drawImage() -> UIImage? {
         let size = self.bounds.size
         UIGraphicsBeginImageContextWithOptions(size, false, UIScreen.main.scale)
         if let context = UIGraphicsGetCurrentContext() {
@@ -22,7 +22,7 @@ extension UIView {
         return image
     }
 
-    func getController() -> UIViewController? {
+    public func getController() -> UIViewController? {
         var responder:UIResponder? = self;
         while (responder != nil){
             if responder? .isKind(of: UIViewController.classForCoder()) ?? false {

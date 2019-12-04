@@ -18,7 +18,7 @@ extension Data  {
     /// - Parameter path: 路径
     /// - Returns: 是否执行写入操作
     @discardableResult
-    func writeToFile(path: String) -> Bool {
+    public func writeToFile(path: String) -> Bool {
         let isExist = FileManager.default .fileExists(atPath: path.documentPath())
         if isExist {
             let olddata = NSData.init(contentsOfFile: path.documentPath()) as Data?

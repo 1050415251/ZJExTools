@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 //MARK: ZJKit
-protocol ZJLayout {
+public protocol ZJLayout {
     
     @discardableResult
     func set(bgcolor: UIColor) -> UIView
@@ -47,7 +47,7 @@ protocol ZJLayout {
 }
 
 
-protocol ZJLayerLayout {
+public protocol ZJLayerLayout {
     
     @discardableResult
     func set(bgcolor: CGColor) -> CALayer
@@ -84,7 +84,7 @@ protocol ZJLayerLayout {
     func set(borderColor: CGColor?) -> CALayer
 }
 
-protocol ZJAnimationLayout {
+public protocol ZJAnimationLayout {
     
     
     

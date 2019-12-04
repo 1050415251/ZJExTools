@@ -29,7 +29,7 @@ open class AlertUtils: NSObject {
     ///   - rightText: 右面文字
     ///   - leftclick: 左面点击回调 可为nil
     ///   - rightclick: 右面点击回调
-    class func showAlert(title: String? ,message: String?, leftText: String?,rightText: String?,leftclick: (()->Void)?,rightclick: (()->Void)?) {
+    open class func showAlert(title: String? ,message: String?, leftText: String?,rightText: String?,leftclick: (()->Void)?,rightclick: (()->Void)?) {
         
         let alertVC = UIAlertController.init(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
         let leftAction = UIAlertAction.init(title: leftText, style: UIAlertAction.Style.default) { (action) in
@@ -55,7 +55,7 @@ open class AlertUtils: NSObject {
     ///   - message: -
     ///   - menus: string：闭包的数组 string为菜单文字 闭包为点击后的回调
     ///   - destructiveIndex: 变红的idnex 默认为-1 那个都不变红
-    class func showAlertSheet(title: String?,message: String?,menus:[[String: (()->Void)?]],destructiveIndex: Int) {
+    open class func showAlertSheet(title: String?,message: String?,menus:[[String: (()->Void)?]],destructiveIndex: Int) {
         let alertVC = UIAlertController.init(title: title, message: message, preferredStyle: UIAlertController.Style.actionSheet)
   
         alertVC.addAction(UIAlertAction.init(title: "取消", style: UIAlertAction.Style.cancel, handler: nil))
@@ -87,7 +87,7 @@ open class AlertUtils: NSObject {
     ///   - message: -
     ///   - menus: string：闭包的数组 string为菜单文字 闭包为点击后的回调
     ///   - destructiveIndex: 变红的idnex 默认为-1 那个都不变红
-    class func showAlertPopVerSuperV(_ superV: UIView,rect: CGRect,arrowDirections: UIPopoverArrowDirection, title: String?,message: String?,menus:[[String: (()->Void)?]],destructiveIndex: Int) {
+    open class func showAlertPopVerSuperV(_ superV: UIView,rect: CGRect,arrowDirections: UIPopoverArrowDirection, title: String?,message: String?,menus:[[String: (()->Void)?]],destructiveIndex: Int) {
         
         let alertVC = UIAlertController.init(title: title, message: message, preferredStyle: UIAlertController.Style.actionSheet)
         
@@ -117,7 +117,7 @@ open class AlertUtils: NSObject {
         
     }
     
-    class func dismissAlertViewController() {
+    open class func dismissAlertViewController() {
         if let vc = AppTopVC(vc: UIApplication.shared.keyWindow?.rootViewController),let alert = vc.presentingViewController {
             alert .dismiss(animated: true, completion: nil)
         }

@@ -9,14 +9,14 @@
 import Foundation
 import UIKit
 
-//let APP = UIApplication.shared.delegate as! AppDelegate
+//public let APP = UIApplication.shared.delegate as! AppDelegate
 //ppp
-let APPVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"
+public let APPVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"
 
 /// iPhone 为 True 其他为 False
-let isiPhone: Bool = UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.phone
+public let isiPhone: Bool = UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.phone
 
-var statusBarH: CGFloat {
+public var statusBarH: CGFloat {
     get {
         if #available(iOS 13.0, *) {
             return UIApplication.shared.windows.first?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0
@@ -28,7 +28,7 @@ var statusBarH: CGFloat {
 }
 
 ////状态栏
-//var statusBarHidden: Bool {
+//public var statusBarHidden: Bool {
 //    get {
 //        if #available(iOS 13.0, *) {
 //            return  UIApplication.shared.windows.first?.windowScene?.statusBarManager?.isStatusBarHidden ?? false
@@ -39,14 +39,14 @@ var statusBarH: CGFloat {
 //    }
 //}
 
-//let APPVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"
+//public let APPVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"
 
-func ITUNES_LINK(APPID: String) -> String {
+public func ITUNES_LINK(APPID: String) -> String {
     return "https://itunes.apple.com/cn/app/id\(APPID)?mt=8"
 }
 
 
-var SAFERA_left: CGFloat {
+public var SAFERA_left: CGFloat {
     if #available(iOS 11.0, *) {
         return UIApplication.shared.windows.first?.safeAreaInsets.left ?? 0
     }
@@ -54,18 +54,18 @@ var SAFERA_left: CGFloat {
     return 0;
 }
 
-var SCREEN_width: CGFloat {
+public var SCREEN_width: CGFloat {
     
     return UIScreen.main.bounds.size.width
 }
 
-var SCREEN_height: CGFloat {
+public var SCREEN_height: CGFloat {
     
     return UIScreen.main.bounds.size.height
 }
 
 
-var SAFERA_right:CGFloat {
+public var SAFERA_right:CGFloat {
     if #available(iOS 11.0, *) {
         return UIApplication.shared.windows.first?.safeAreaInsets.right ?? 0
     }
@@ -73,7 +73,7 @@ var SAFERA_right:CGFloat {
 }
 
 
-var SAFERA_bottom: CGFloat {
+public var SAFERA_bottom: CGFloat {
     if #available(iOS 11.0, *) {
         return UIApplication.shared.windows.first?.safeAreaInsets.bottom ?? 0
     }
@@ -81,7 +81,7 @@ var SAFERA_bottom: CGFloat {
     return 0;
 }
 
-var SAFERA_top:CGFloat {
+public var SAFERA_top:CGFloat {
     if #available(iOS 11.0, *) {
         return UIApplication.shared.windows.first?.safeAreaInsets.top ?? 0
     }

@@ -12,21 +12,21 @@ import UIKit
 
 extension Int {
 
-    func rgbColor(_ alpha: CGFloat = 1.0) -> UIColor {
+    public func rgbColor(_ alpha: CGFloat = 1.0) -> UIColor {
         let red = CGFloat(Double(self >> 16) / 255.0)
         let green = CGFloat(Double(self >> 8 % 256) / 255.0)
         let blue = CGFloat(Double(self % 256) / 255.0)
         return UIColor(red: red, green: green, blue: blue, alpha: alpha)
     }
 
-    var rgbColor: UIColor {
+    public var rgbColor: UIColor {
         get {
             return rgbColor(1.0)
         }
     }
 
     //MARK:Int赚字符串
-    func IntToZH() -> String {
+    public func IntToZH() -> String {
         if self > 10 {
             return ""
         }
@@ -61,11 +61,11 @@ extension Int {
     }
 
 
-    var doubleValue:Double! {
+    public var doubleValue:Double! {
         return Double(self)
     }
 
-    var floatValue:Float! {
+    public var floatValue:Float! {
         return Float(self)
     }
 

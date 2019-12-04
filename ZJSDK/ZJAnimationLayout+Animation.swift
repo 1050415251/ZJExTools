@@ -17,31 +17,31 @@ extension CAAnimation: ZJAnimationLayout {
 extension ZJAnimationLayout where Self: CABasicAnimation {
     
     @discardableResult
-    func set_Basic(fromValue: Any?) -> CABasicAnimation {
+    public func set_Basic(fromValue: Any?) -> CABasicAnimation {
         self.fromValue = fromValue
         return self
     }
     
     @discardableResult
-    func set_Basic(toValue: Any?) -> CABasicAnimation {
+    public func set_Basic(toValue: Any?) -> CABasicAnimation {
         self.toValue = toValue
         return self
     }
     
     @discardableResult
-    func set_Basic(duration: CFTimeInterval) -> CABasicAnimation {
+    public func set_Basic(duration: CFTimeInterval) -> CABasicAnimation {
         self.duration = duration
         return self
     }
     
     @discardableResult
-    func set_Basic(autoreverses: Bool) -> CABasicAnimation {
+    public func set_Basic(autoreverses: Bool) -> CABasicAnimation {
         self.autoreverses = autoreverses
         return self
     }
     
     @discardableResult
-    func set_Basic(fillMode: CAMediaTimingFillMode) -> CABasicAnimation {
+    public func set_Basic(fillMode: CAMediaTimingFillMode) -> CABasicAnimation {
         self.fillMode = fillMode
         return self
     }
@@ -49,7 +49,7 @@ extension ZJAnimationLayout where Self: CABasicAnimation {
     
     //common
     @discardableResult
-    func set_Basic(repeatCount: Float) -> CABasicAnimation {
+    public func set_Basic(repeatCount: Float) -> CABasicAnimation {
         self.repeatCount = repeatCount
         return self
     }

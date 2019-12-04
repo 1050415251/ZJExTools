@@ -11,11 +11,11 @@ import UIKit
 
 extension UIImage {
 
-    func bluredImage() -> UIImage {
+    public func bluredImage() -> UIImage {
         return self.bluredImage(20)
     }
 
-    func bluredImage(_ radius: CGFloat) -> UIImage {
+    public func bluredImage(_ radius: CGFloat) -> UIImage {
 
         let originImage = CIImage(cgImage: self.cgImage!)
 
@@ -30,7 +30,7 @@ extension UIImage {
         return blurImage
     }
 
-    class func createImageWithColor(_ color:UIColor,size:CGSize)  -> UIImage? {
+    class public func createImageWithColor(_ color:UIColor,size:CGSize)  -> UIImage? {
         let rect = CGRect.init(x: 0, y: 0, width: size.width , height: size.height)
         UIGraphicsBeginImageContext(rect.size)
         let context = UIGraphicsGetCurrentContext()
@@ -41,7 +41,7 @@ extension UIImage {
         return img
     }
     
-    func reSizeimage(edge: CGFloat) -> UIImage {
+    public func reSizeimage(edge: CGFloat) -> UIImage {
 
 //        let size = CGSize.init(width: self.size.width - edge*2, height: self.size.height - edge*2)
         guard let sourceImageRef = self.cgImage else { return self }

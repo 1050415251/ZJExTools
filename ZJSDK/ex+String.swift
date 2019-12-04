@@ -11,11 +11,11 @@ import UIKit
 
 extension String {
 
-    var length: Int {
+    public var length: Int {
         return self.count
     }
 
-    var dateValue: Date? {
+    public var dateValue: Date? {
         get {
             let fmt = DateFormatter()
             fmt.dateFormat = "yyyy/MM/dd HH:mm:ss"
@@ -37,7 +37,7 @@ extension String {
 
   
 
-    func fitHeight(padding: CGFloat,width:CGFloat,font: UIFont) -> CGFloat {
+    public func fitHeight(padding: CGFloat,width:CGFloat,font: UIFont) -> CGFloat {
 
         let bounds = self.boundingRect(with: CGSize(width: width, height: CGFloat(MAXFLOAT)),
                                        options: NSStringDrawingOptions.usesLineFragmentOrigin,
@@ -46,7 +46,7 @@ extension String {
         return ceil(bounds.height + padding * 2)
     }
 
-    func fitWidth(padding: CGFloat,height: CGFloat,font: UIFont) -> CGFloat {
+    public func fitWidth(padding: CGFloat,height: CGFloat,font: UIFont) -> CGFloat {
 
         let bounds = self.boundingRect(with: CGSize(width: CGFloat(MAXFLOAT), height: height),
                                        options: NSStringDrawingOptions.usesLineFragmentOrigin,
@@ -55,17 +55,17 @@ extension String {
         return  ceil(bounds.width + padding * 2)
     }
     
-    func documentPath() -> String {
+    public func documentPath() -> String {
         let diskPath = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true)[0] + "/" + self
         return diskPath
     }
     
-    func bundlePath() -> String {
+    public func bundlePath() -> String {
       let bundlePath = Bundle.main.resourcePath! + "/" + self
       return bundlePath
     }
     
-    func readData() -> Data? {
+    public func readData() -> Data? {
 //        return nil
         let diskPath = self.documentPath()
         let diskdata:Data? =  NSData.init(contentsOfFile: diskPath) as Data?
