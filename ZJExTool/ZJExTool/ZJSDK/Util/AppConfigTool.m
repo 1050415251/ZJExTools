@@ -3,8 +3,8 @@
 //  SystemUtils.m
 //  mjbrower
 //
-//  Created by Jia Jia 李华 on 2019/5/18.
-//  Copyright © 2019 李华. All rights reserved.
+//  Created by ZJ on 2019/5/18.
+//  Copyright © 2019 ZJ All rights reserved.
 //
 
 #import "AppConfigTool.h"
@@ -19,32 +19,18 @@
 
 #import <StoreKit/StoreKit.h>
 
-#define APPREVIEW @"appreviewwwwww"
 
-//#import "MacroDefinition.h"
-#define APPVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
 
 @implementation AppConfigTool
 
 +(void)load {
     [super load];
-//    [AFNetworkReachabilityManager.sharedManager startMonitoring];
+
 }
 
-+ (void)requestReview {
-   
-    NSString * version = [NSUserDefaults.standardUserDefaults objectForKey: APPREVIEW];
-    if (version && [version isEqualToString:APPVersion]) {
-        return;
-    }
 
-    if (@available(iOS 10.3, *)) {
-        [SKStoreReviewController requestReview];
-    } else {
-        // Fallback on earlier versions
-    }
-    [NSUserDefaults.standardUserDefaults setObject:APPVersion forKey:APPREVIEW];
-    
++ (void)requestReview API_AVAILABLE(ios(10.3), macos(10.14)) __TVOS_PROHIBITED {
+    [SKStoreReviewController requestReview];
 }
 
 + (void)openUrl: (NSString *)url {
@@ -58,30 +44,8 @@
     }
 }
 
-//+(AFNetworkReachabilityStatus)getCurrentNetStatus {
-//    return [AFNetworkReachabilityManager sharedManager].networkReachabilityStatus;
-//}
 
-//网络状态
-+(NSString *)getConnectType
-{
-    NSString * connectionType = @"999";
-    
-//    switch ([AFNetworkReachabilityManager sharedManager].networkReachabilityStatus) {
-//        case AFNetworkReachabilityStatusReachableViaWWAN:{
-//            connectionType = @"4";
-//        }break;
-//        case AFNetworkReachabilityStatusReachableViaWiFi:{
-//            connectionType = @"100";
-//        }break;
-//        case AFNetworkReachabilityStatusUnknown:
-//        case AFNetworkReachabilityStatusNotReachable:
-//        default:{
-//            connectionType = @"999";
-//        }break;
-//    }
-    return connectionType;
-}
+
 // 获取运营商类型
 +(NSString *)getOperatorsType
 {
@@ -125,6 +89,8 @@
     NSString *platform = [NSString stringWithCString:systemInfo.machine encoding:NSASCIIStringEncoding];
     NSDictionary *dict = @{
                            // iPhone
+                           @"iPhone5,1" : @"iPhone 5",
+                           @"iPhone5,2" : @"iPhone 5",
                            @"iPhone5,3" : @"iPhone 5c",
                            @"iPhone5,4" : @"iPhone 5c",
                            @"iPhone6,1" : @"iPhone 5s",
@@ -136,6 +102,8 @@
                            @"iPhone8,4" : @"iPhone SE",
                            @"iPhone9,1" : @"iPhone 7",
                            @"iPhone9,2" : @"iPhone 7 Plus",
+                           @"iPhone9,3" : @"iPhone 7",
+                           @"iPhone9,4" : @"iPhone 7 Plus",
                            @"iPhone10,1" : @"iPhone 8",
                            @"iPhone10,4" : @"iPhone 8",
                            @"iPhone10,2" : @"iPhone 8 Plus",
@@ -146,8 +114,13 @@
                            @"iPhone11,4" : @"iPhone XS Max",
                            @"iPhone11,6" : @"iPhone XS Max",
                            @"iPhone11,8" : @"iPhone XR",
+                           @"iPhone12,1" : @"iPhone 11",
+                           @"iPhone12,3" : @"iPhone 11 Pro",
+                           @"iPhone12,5" : @"iPhone 11 Pro Max",
+                           
                            @"i386" : @"iPhone Simulator",
                            @"x86_64" : @"iPhone Simulator",
+                           
                            @"iPad4,1" : @"iPad Air",
                            @"iPad4,2" : @"iPad Air",
                            @"iPad4,3" : @"iPad Air",

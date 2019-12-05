@@ -2,8 +2,8 @@
 //  ex+Noicetion.swift
 //  CYJBrowser
 //
-//  Created by 王铁柱 on 2019/12/4.
-//  Copyright © 2019 王铁柱. All rights reserved.
+//  Created by ZJ on 2019/12/4.
+//  Copyright © 2019 ZJ. All rights reserved.
 //
 
 import Foundation

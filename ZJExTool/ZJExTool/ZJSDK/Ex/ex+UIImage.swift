@@ -2,8 +2,8 @@
 //  extension+UIImage.swift
 //  CustomFile
 //
-//  Created by 国投 on 2018/9/12.
-//  Copyright © 2018年 FlyKite. All rights reserved.
+//  Created by ZJ on 2018/9/12.
+//  Copyright © 2018年 ZJ. All rights reserved.
 //
 
 import Foundation

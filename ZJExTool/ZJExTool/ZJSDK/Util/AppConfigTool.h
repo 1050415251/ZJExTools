@@ -2,8 +2,8 @@
 //  SystemUtils.h
 //  mjbrower
 //
-//  Created by Jia Jia 李华 on 2019/5/18.
-//  Copyright © 2019 李华. All rights reserved.
+//  Created by ZJ on 2019/5/18.
+//  Copyright © 2019 ZJ All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -13,18 +13,19 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AppConfigTool : NSObject
 
-
+/// 打开某个地址
 + (void)openUrl: (NSString *)url;
 
-+ (void)requestReview;
+/// 去hp window
++ (void)requestReview API_AVAILABLE(ios(10.3), macos(10.14)) __TVOS_PROHIBITED;
 
+/// iPhone类型
 +(NSString *)iphoneType;
 
+/// 获取运营商类型
 +(NSString *)getOperatorsType;
 
-+(NSString *)getConnectType;
 
-//+(AFNetworkReachabilityStatus)getCurrentNetStatus;
 
 
 @end

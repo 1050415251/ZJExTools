@@ -3,7 +3,7 @@
 //  FriendlyBrowser
 //
 //  Created by ZJ on 2019/10/22.
-//  Copyright © 2019 Anchoriter. All rights reserved.
+//  Copyright © 2019 ZJ. All rights reserved.
 //
 
 import Foundation

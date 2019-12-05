@@ -2,8 +2,8 @@
 //  ZJKit+Animation.swift
 //  FriendlyBrowser
 //
-//  Created by 李天 on 2019/10/28.
-//  Copyright © 2019 Anchoriter. All rights reserved.
+//  Created by ZJ on 2019/10/28.
+//  Copyright © 2019 ZJ. All rights reserved.
 //
 
 import Foundation

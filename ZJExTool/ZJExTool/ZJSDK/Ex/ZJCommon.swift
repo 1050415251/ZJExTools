@@ -2,8 +2,8 @@
 //  CYJCommon.swift
 //  CYJBrowser
 //
-//  Created by 王铁柱 on 2019/11/19.
-//  Copyright © 2019 王铁柱. All rights reserved.
+//  Created by ZJ on 2019/11/19.
+//  Copyright © 2019 ZJ. All rights reserved.
 //
 
 import Foundation
@@ -27,19 +27,20 @@ public var statusBarH: CGFloat {
     }
 }
 
-////状态栏
-//public var statusBarHidden: Bool {
-//    get {
-//        if #available(iOS 13.0, *) {
-//            return  UIApplication.shared.windows.first?.windowScene?.statusBarManager?.isStatusBarHidden ?? false
-//        } else {
-//            // Fallback on earlier versions
-//            return UIApplication.shared.isStatusBarHidden
-//        }///YES隐藏  NO出现
-//    }
-//}
+//状态栏
+public var statusBarHidden: Bool {
+    get {
+        if #available(iOS 13.0, *) {
+            return  UIApplication.shared.windows.first?.windowScene?.statusBarManager?.isStatusBarHidden ?? false
+        } else {
+            // Fallback on earlier versions
+            return UIApplication.shared.isStatusBarHidden
+        }///YES隐藏  NO出现
+    }
+}
 
-//public let APPVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"
+public let APPVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"
+
 
 public func ITUNES_LINK(APPID: String) -> String {
     return "https://itunes.apple.com/cn/app/id\(APPID)?mt=8"

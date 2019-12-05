@@ -70,19 +70,19 @@
 		8BD7179E2397840B00559821 /* ZJLayout+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ZJLayout+UI.swift"; path = "../../../../ZJSDK/ZJLayout+UI.swift"; sourceTree = "<group>"; };
 		8BD7179F2397840B00559821 /* ZJLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZJLayout.swift; path = ../../../../ZJSDK/ZJLayout.swift; sourceTree = "<group>"; };
 		8BD717A42397842C00559821 /* ZJExTool-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZJExTool-Bridging-Header.h"; sourceTree = "<group>"; };
-		8BD717A52397842D00559821 /* AlertUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertUtils.swift; path = ../../../ZJSDK/AlertUtils.swift; sourceTree = "<group>"; };
-		8BD717A62397842D00559821 /* UIUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIUtils.swift; path = ../../../ZJSDK/UIUtils.swift; sourceTree = "<group>"; };
-		8BD717A72397842D00559821 /* AppConfigTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppConfigTool.h; path = ../../../ZJSDK/AppConfigTool.h; sourceTree = "<group>"; };
-		8BD717A82397842D00559821 /* AppConfigTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppConfigTool.m; path = ../../../ZJSDK/AppConfigTool.m; sourceTree = "<group>"; };
-		8BD717AC2397844B00559821 /* ZJCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZJCommon.swift; path = ../../../ZJSDK/ZJCommon.swift; sourceTree = "<group>"; };
-		8BD717AE2397845B00559821 /* ex+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ex+URL.swift"; path = "../../../ZJSDK/ex+URL.swift"; sourceTree = "<group>"; };
-		8BD717AF2397845B00559821 /* ex+Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ex+Notification.swift"; path = "../../../ZJSDK/ex+Notification.swift"; sourceTree = "<group>"; };
-		8BD717B02397845B00559821 /* ex+Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ex+Int.swift"; path = "../../../ZJSDK/ex+Int.swift"; sourceTree = "<group>"; };
-		8BD717B12397845B00559821 /* ex+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ex+UIImage.swift"; path = "../../../ZJSDK/ex+UIImage.swift"; sourceTree = "<group>"; };
-		8BD717B22397845B00559821 /* ex+NSMutableAttrituString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ex+NSMutableAttrituString.swift"; path = "../../../ZJSDK/ex+NSMutableAttrituString.swift"; sourceTree = "<group>"; };
-		8BD717B32397845B00559821 /* ex+Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ex+Data.swift"; path = "../../../ZJSDK/ex+Data.swift"; sourceTree = "<group>"; };
-		8BD717B42397845B00559821 /* ex+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ex+UIView.swift"; path = "../../../ZJSDK/ex+UIView.swift"; sourceTree = "<group>"; };
-		8BD717B52397845B00559821 /* ex+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ex+String.swift"; path = "../../../ZJSDK/ex+String.swift"; sourceTree = "<group>"; };
+		8BD717A52397842D00559821 /* AlertUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertUtils.swift; sourceTree = "<group>"; };
+		8BD717A62397842D00559821 /* UIUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUtils.swift; sourceTree = "<group>"; };
+		8BD717A72397842D00559821 /* AppConfigTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfigTool.h; sourceTree = "<group>"; };
+		8BD717A82397842D00559821 /* AppConfigTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConfigTool.m; sourceTree = "<group>"; };
+		8BD717AC2397844B00559821 /* ZJCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJCommon.swift; sourceTree = "<group>"; };
+		8BD717AE2397845B00559821 /* ex+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+URL.swift"; sourceTree = "<group>"; };
+		8BD717AF2397845B00559821 /* ex+Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+Notification.swift"; sourceTree = "<group>"; };
+		8BD717B02397845B00559821 /* ex+Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+Int.swift"; sourceTree = "<group>"; };
+		8BD717B12397845B00559821 /* ex+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+UIImage.swift"; sourceTree = "<group>"; };
+		8BD717B22397845B00559821 /* ex+NSMutableAttrituString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+NSMutableAttrituString.swift"; sourceTree = "<group>"; };
+		8BD717B32397845B00559821 /* ex+Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+Data.swift"; sourceTree = "<group>"; };
+		8BD717B42397845B00559821 /* ex+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+UIView.swift"; sourceTree = "<group>"; };
+		8BD717B52397845B00559821 /* ex+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+String.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,21 +168,7 @@
 			children = (
 				8BD71772239756E100559821 /* ZJLayout */,
 				8BD71777239756E100559821 /* Util */,
-				8BD717A52397842D00559821 /* AlertUtils.swift */,
-				8BD717A72397842D00559821 /* AppConfigTool.h */,
-				8BD717A82397842D00559821 /* AppConfigTool.m */,
-				8BD717A62397842D00559821 /* UIUtils.swift */,
 				8BD7177D239756E100559821 /* Ex */,
-				8BD717B32397845B00559821 /* ex+Data.swift */,
-				8BD717B02397845B00559821 /* ex+Int.swift */,
-				8BD717AF2397845B00559821 /* ex+Notification.swift */,
-				8BD717B22397845B00559821 /* ex+NSMutableAttrituString.swift */,
-				8BD717B52397845B00559821 /* ex+String.swift */,
-				8BD717B12397845B00559821 /* ex+UIImage.swift */,
-				8BD717B42397845B00559821 /* ex+UIView.swift */,
-				8BD717AE2397845B00559821 /* ex+URL.swift */,
-				8BD717A42397842C00559821 /* ZJExTool-Bridging-Header.h */,
-				8BD717AC2397844B00559821 /* ZJCommon.swift */,
 			);
 			path = ZJSDK;
 			sourceTree = "<group>";
@@ -201,6 +187,10 @@
 		8BD71777239756E100559821 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				8BD717A52397842D00559821 /* AlertUtils.swift */,
+				8BD717A72397842D00559821 /* AppConfigTool.h */,
+				8BD717A82397842D00559821 /* AppConfigTool.m */,
+				8BD717A62397842D00559821 /* UIUtils.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -208,6 +198,16 @@
 		8BD7177D239756E100559821 /* Ex */ = {
 			isa = PBXGroup;
 			children = (
+				8BD717B32397845B00559821 /* ex+Data.swift */,
+				8BD717B02397845B00559821 /* ex+Int.swift */,
+				8BD717AF2397845B00559821 /* ex+Notification.swift */,
+				8BD717B22397845B00559821 /* ex+NSMutableAttrituString.swift */,
+				8BD717B52397845B00559821 /* ex+String.swift */,
+				8BD717B12397845B00559821 /* ex+UIImage.swift */,
+				8BD717B42397845B00559821 /* ex+UIView.swift */,
+				8BD717AE2397845B00559821 /* ex+URL.swift */,
+				8BD717A42397842C00559821 /* ZJExTool-Bridging-Header.h */,
+				8BD717AC2397844B00559821 /* ZJCommon.swift */,
 			);
 			path = Ex;
 			sourceTree = "<group>";

@@ -2,8 +2,8 @@
 //  GSAlertUtils.swift
 //  Brower
 //
-//  Created by Jia Jia 李华 on 2019/6/28.
-//  Copyright © 2019 李华. All rights reserved.
+//  Created by ZJ on 2019/6/28.
+//  Copyright © 2019 ZJ. All rights reserved.
 //
 
 import Foundation
