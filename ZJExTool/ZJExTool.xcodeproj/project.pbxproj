@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B2113BB2403CD1000E0617D /* ex+Arr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2113BA2403CD1000E0617D /* ex+Arr.swift */; };
 		8BD71712239756AD00559821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD71711239756AD00559821 /* AppDelegate.swift */; };
 		8BD71714239756AD00559821 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD71713239756AD00559821 /* SceneDelegate.swift */; };
 		8BD71716239756AD00559821 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD71715239756AD00559821 /* ViewController.swift */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B2113BA2403CD1000E0617D /* ex+Arr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ex+Arr.swift"; sourceTree = "<group>"; };
 		8BD7170E239756AD00559821 /* ZJExTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJExTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD71711239756AD00559821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BD71713239756AD00559821 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 				8BD717B12397845B00559821 /* ex+UIImage.swift */,
 				8BD717B42397845B00559821 /* ex+UIView.swift */,
 				8BD717AE2397845B00559821 /* ex+URL.swift */,
+				8B2113BA2403CD1000E0617D /* ex+Arr.swift */,
 				8BD717A42397842C00559821 /* ZJExTool-Bridging-Header.h */,
 				8BD717AC2397844B00559821 /* ZJCommon.swift */,
 			);
@@ -348,6 +351,7 @@
 				8BD717BD2397845B00559821 /* ex+String.swift in Sources */,
 				8BD717BA2397845B00559821 /* ex+NSMutableAttrituString.swift in Sources */,
 				8BD717B72397845B00559821 /* ex+Notification.swift in Sources */,
+				8B2113BB2403CD1000E0617D /* ex+Arr.swift in Sources */,
 				8BD717A22397840B00559821 /* ZJLayout+UI.swift in Sources */,
 				8BD717A32397840B00559821 /* ZJLayout.swift in Sources */,
 				8BD71716239756AD00559821 /* ViewController.swift in Sources */,
@@ -539,14 +543,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PY68QSGWT3;
 				INFOPLIST_FILE = ZJExTool/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zjzy.ZJExTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ZJExTool/ZJSDK/ZJExTool-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/zhangjinliang/Desktop/Project/ZJExTools/ZJExTool/ZJExTool/ZJSDK/Ex/ZJExTool-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -561,14 +565,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PY68QSGWT3;
 				INFOPLIST_FILE = ZJExTool/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zjzy.ZJExTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ZJExTool/ZJSDK/ZJExTool-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/zhangjinliang/Desktop/Project/ZJExTools/ZJExTool/ZJExTool/ZJSDK/Ex/ZJExTool-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

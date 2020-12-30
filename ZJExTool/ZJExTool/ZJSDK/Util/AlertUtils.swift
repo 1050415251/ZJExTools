@@ -89,6 +89,11 @@ open class AlertUtils: NSObject {
     ///   - destructiveIndex: 变红的idnex 默认为-1 那个都不变红
     open class func showAlertPopVerSuperV(_ superV: UIView,rect: CGRect,arrowDirections: UIPopoverArrowDirection, title: String?,message: String?,menus:[[String: (()->Void)?]],destructiveIndex: Int) {
         
+        let targetVC = AppTopVC(vc: UIApplication.shared.keyWindow?.rootViewController)
+        if ((targetVC?.presentedViewController? .isKind(of: UIAlertController.classForCoder())) != nil) {
+            return
+        }
+        
         let alertVC = UIAlertController.init(title: title, message: message, preferredStyle: UIAlertController.Style.actionSheet)
         
         alertVC.addAction(UIAlertAction.init(title: "取消", style: UIAlertAction.Style.cancel, handler: nil))
@@ -113,7 +118,7 @@ open class AlertUtils: NSObject {
         }
         
         
-        AppTopVC(vc: UIApplication.shared.keyWindow?.rootViewController)?.present(alertVC, animated: true, completion: nil)
+        targetVC? .present(alertVC, animated: true, completion: nil)
         
     }
     

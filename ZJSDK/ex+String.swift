@@ -77,5 +77,12 @@ extension String {
         return diskdata ?? (bundledata ?? Data())
     }
     
+    public func readBundleData() -> Data? {
+           var bundledata: Data?
+           let bundlePath = self.bundlePath()
+           bundledata = NSData.init(contentsOfFile: bundlePath) as Data?
+           return bundledata
+    }
+       
 
 }

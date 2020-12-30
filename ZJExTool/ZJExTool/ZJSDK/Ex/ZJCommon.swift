@@ -39,7 +39,6 @@ public var statusBarHidden: Bool {
     }
 }
 
-public let APPVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"
 
 
 public func ITUNES_LINK(APPID: String) -> String {
