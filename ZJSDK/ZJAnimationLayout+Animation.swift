@@ -40,11 +40,11 @@ extension ZJAnimationLayout where Self: CABasicAnimation {
         return self
     }
     
-    @discardableResult
-    public func set_Basic(fillMode: CAMediaTimingFillMode) -> CABasicAnimation {
-        self.fillMode = fillMode
-        return self
-    }
+//    @discardableResult
+//    public func set_Basic(fillMode: CAMediaTimingFillMode) -> CABasicAnimation {
+//        self.fillMode = fillMode
+//        return self
+//    }
     
     
     //common

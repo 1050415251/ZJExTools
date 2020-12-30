@@ -132,10 +132,10 @@ extension ZJLayerLayout where Self: CAGradientLayer {
         return self
     }
     
-    public func set_Gradient(type: CAGradientLayerType) -> CAGradientLayer {
-        self.type = type
-        return self
-    }
+//    public func set_Gradient(type: CAGradientLayerType) -> CAGradientLayer {
+//        self.type = type
+//        return self
+//    }
     
     
     

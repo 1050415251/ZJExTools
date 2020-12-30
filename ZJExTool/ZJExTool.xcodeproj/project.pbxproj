@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B2113BB2403CD1000E0617D /* ex+Arr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2113BA2403CD1000E0617D /* ex+Arr.swift */; };
 		8BD71712239756AD00559821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD71711239756AD00559821 /* AppDelegate.swift */; };
 		8BD71714239756AD00559821 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD71713239756AD00559821 /* SceneDelegate.swift */; };
 		8BD71716239756AD00559821 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD71715239756AD00559821 /* ViewController.swift */; };
@@ -16,22 +15,22 @@
 		8BD7171E239756AF00559821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD7171C239756AF00559821 /* LaunchScreen.storyboard */; };
 		8BD71729239756AF00559821 /* ZJExToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD71728239756AF00559821 /* ZJExToolTests.swift */; };
 		8BD71734239756AF00559821 /* ZJExToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD71733239756AF00559821 /* ZJExToolUITests.swift */; };
-		8BD717A02397840B00559821 /* ZJLayerLayout+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7179C2397840B00559821 /* ZJLayerLayout+Layer.swift */; };
-		8BD717A12397840B00559821 /* ZJAnimationLayout+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7179D2397840B00559821 /* ZJAnimationLayout+Animation.swift */; };
-		8BD717A22397840B00559821 /* ZJLayout+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7179E2397840B00559821 /* ZJLayout+UI.swift */; };
-		8BD717A32397840B00559821 /* ZJLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7179F2397840B00559821 /* ZJLayout.swift */; };
-		8BD717A92397842D00559821 /* AlertUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD717A52397842D00559821 /* AlertUtils.swift */; };
-		8BD717AA2397842D00559821 /* UIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD717A62397842D00559821 /* UIUtils.swift */; };
-		8BD717AB2397842D00559821 /* AppConfigTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD717A82397842D00559821 /* AppConfigTool.m */; };
-		8BD717AD2397844B00559821 /* ZJCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD717AC2397844B00559821 /* ZJCommon.swift */; };
-		8BD717B62397845B00559821 /* ex+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD717AE2397845B00559821 /* ex+URL.swift */; };
-		8BD717B72397845B00559821 /* ex+Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD717AF2397845B00559821 /* ex+Notification.swift */; };
-		8BD717B82397845B00559821 /* ex+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD717B02397845B00559821 /* ex+Int.swift */; };
-		8BD717B92397845B00559821 /* ex+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD717B12397845B00559821 /* ex+UIImage.swift */; };
-		8BD717BA2397845B00559821 /* ex+NSMutableAttrituString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD717B22397845B00559821 /* ex+NSMutableAttrituString.swift */; };
-		8BD717BB2397845B00559821 /* ex+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD717B32397845B00559821 /* ex+Data.swift */; };
-		8BD717BC2397845B00559821 /* ex+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD717B42397845B00559821 /* ex+UIView.swift */; };
-		8BD717BD2397845B00559821 /* ex+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD717B52397845B00559821 /* ex+String.swift */; };
+		8BFC6642259C16980097FB3E /* UIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC6631259C16980097FB3E /* UIUtils.swift */; };
+		8BFC6643259C16980097FB3E /* ex+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC6632259C16980097FB3E /* ex+UIImage.swift */; };
+		8BFC6644259C16980097FB3E /* ex+Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC6634259C16980097FB3E /* ex+Notification.swift */; };
+		8BFC6645259C16980097FB3E /* ZJLayout+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC6635259C16980097FB3E /* ZJLayout+UI.swift */; };
+		8BFC6646259C16980097FB3E /* ex+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC6636259C16980097FB3E /* ex+URL.swift */; };
+		8BFC6647259C16980097FB3E /* ex+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC6637259C16980097FB3E /* ex+Int.swift */; };
+		8BFC6648259C16980097FB3E /* AlertUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC6638259C16980097FB3E /* AlertUtils.swift */; };
+		8BFC6649259C16980097FB3E /* ex+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC6639259C16980097FB3E /* ex+UIView.swift */; };
+		8BFC664A259C16980097FB3E /* ZJLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC663A259C16980097FB3E /* ZJLayout.swift */; };
+		8BFC664B259C16980097FB3E /* ex+NSMutableAttrituString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC663B259C16980097FB3E /* ex+NSMutableAttrituString.swift */; };
+		8BFC664C259C16980097FB3E /* ZJAnimationLayout+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC663C259C16980097FB3E /* ZJAnimationLayout+Animation.swift */; };
+		8BFC664D259C16980097FB3E /* ZJLayerLayout+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC663D259C16980097FB3E /* ZJLayerLayout+Layer.swift */; };
+		8BFC664E259C16980097FB3E /* AppConfigTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC663E259C16980097FB3E /* AppConfigTool.m */; };
+		8BFC664F259C16980097FB3E /* ex+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC663F259C16980097FB3E /* ex+String.swift */; };
+		8BFC6650259C16980097FB3E /* ex+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC6640259C16980097FB3E /* ex+Data.swift */; };
+		8BFC6651259C16980097FB3E /* ZJCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC6641259C16980097FB3E /* ZJCommon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8B2113BA2403CD1000E0617D /* ex+Arr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ex+Arr.swift"; sourceTree = "<group>"; };
 		8BD7170E239756AD00559821 /* ZJExTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJExTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD71711239756AD00559821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BD71713239756AD00559821 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,24 +65,23 @@
 		8BD7172F239756AF00559821 /* ZJExToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJExToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD71733239756AF00559821 /* ZJExToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJExToolUITests.swift; sourceTree = "<group>"; };
 		8BD71735239756AF00559821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BD7179C2397840B00559821 /* ZJLayerLayout+Layer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ZJLayerLayout+Layer.swift"; path = "../../../../ZJSDK/ZJLayerLayout+Layer.swift"; sourceTree = "<group>"; };
-		8BD7179D2397840B00559821 /* ZJAnimationLayout+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ZJAnimationLayout+Animation.swift"; path = "../../../../ZJSDK/ZJAnimationLayout+Animation.swift"; sourceTree = "<group>"; };
-		8BD7179E2397840B00559821 /* ZJLayout+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ZJLayout+UI.swift"; path = "../../../../ZJSDK/ZJLayout+UI.swift"; sourceTree = "<group>"; };
-		8BD7179F2397840B00559821 /* ZJLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZJLayout.swift; path = ../../../../ZJSDK/ZJLayout.swift; sourceTree = "<group>"; };
-		8BD717A42397842C00559821 /* ZJExTool-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZJExTool-Bridging-Header.h"; sourceTree = "<group>"; };
-		8BD717A52397842D00559821 /* AlertUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertUtils.swift; sourceTree = "<group>"; };
-		8BD717A62397842D00559821 /* UIUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUtils.swift; sourceTree = "<group>"; };
-		8BD717A72397842D00559821 /* AppConfigTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfigTool.h; sourceTree = "<group>"; };
-		8BD717A82397842D00559821 /* AppConfigTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConfigTool.m; sourceTree = "<group>"; };
-		8BD717AC2397844B00559821 /* ZJCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJCommon.swift; sourceTree = "<group>"; };
-		8BD717AE2397845B00559821 /* ex+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+URL.swift"; sourceTree = "<group>"; };
-		8BD717AF2397845B00559821 /* ex+Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+Notification.swift"; sourceTree = "<group>"; };
-		8BD717B02397845B00559821 /* ex+Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+Int.swift"; sourceTree = "<group>"; };
-		8BD717B12397845B00559821 /* ex+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+UIImage.swift"; sourceTree = "<group>"; };
-		8BD717B22397845B00559821 /* ex+NSMutableAttrituString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+NSMutableAttrituString.swift"; sourceTree = "<group>"; };
-		8BD717B32397845B00559821 /* ex+Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+Data.swift"; sourceTree = "<group>"; };
-		8BD717B42397845B00559821 /* ex+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+UIView.swift"; sourceTree = "<group>"; };
-		8BD717B52397845B00559821 /* ex+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+String.swift"; sourceTree = "<group>"; };
+		8BFC6631259C16980097FB3E /* UIUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUtils.swift; sourceTree = "<group>"; };
+		8BFC6632259C16980097FB3E /* ex+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+UIImage.swift"; sourceTree = "<group>"; };
+		8BFC6633259C16980097FB3E /* AppConfigTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfigTool.h; sourceTree = "<group>"; };
+		8BFC6634259C16980097FB3E /* ex+Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+Notification.swift"; sourceTree = "<group>"; };
+		8BFC6635259C16980097FB3E /* ZJLayout+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZJLayout+UI.swift"; sourceTree = "<group>"; };
+		8BFC6636259C16980097FB3E /* ex+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+URL.swift"; sourceTree = "<group>"; };
+		8BFC6637259C16980097FB3E /* ex+Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+Int.swift"; sourceTree = "<group>"; };
+		8BFC6638259C16980097FB3E /* AlertUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertUtils.swift; sourceTree = "<group>"; };
+		8BFC6639259C16980097FB3E /* ex+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+UIView.swift"; sourceTree = "<group>"; };
+		8BFC663A259C16980097FB3E /* ZJLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJLayout.swift; sourceTree = "<group>"; };
+		8BFC663B259C16980097FB3E /* ex+NSMutableAttrituString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+NSMutableAttrituString.swift"; sourceTree = "<group>"; };
+		8BFC663C259C16980097FB3E /* ZJAnimationLayout+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZJAnimationLayout+Animation.swift"; sourceTree = "<group>"; };
+		8BFC663D259C16980097FB3E /* ZJLayerLayout+Layer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZJLayerLayout+Layer.swift"; sourceTree = "<group>"; };
+		8BFC663E259C16980097FB3E /* AppConfigTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConfigTool.m; sourceTree = "<group>"; };
+		8BFC663F259C16980097FB3E /* ex+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+String.swift"; sourceTree = "<group>"; };
+		8BFC6640259C16980097FB3E /* ex+Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ex+Data.swift"; sourceTree = "<group>"; };
+		8BFC6641259C16980097FB3E /* ZJCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJCommon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,10 +132,10 @@
 		8BD71710239756AD00559821 /* ZJExTool */ = {
 			isa = PBXGroup;
 			children = (
+				8BFC6630259C16980097FB3E /* ZJSDK */,
 				8BD71711239756AD00559821 /* AppDelegate.swift */,
 				8BD71713239756AD00559821 /* SceneDelegate.swift */,
 				8BD71715239756AD00559821 /* ViewController.swift */,
-				8BD71771239756E100559821 /* ZJSDK */,
 				8BD71717239756AD00559821 /* Main.storyboard */,
 				8BD7171A239756AF00559821 /* Assets.xcassets */,
 				8BD7171C239756AF00559821 /* LaunchScreen.storyboard */,
@@ -165,54 +162,29 @@
 			path = ZJExToolUITests;
 			sourceTree = "<group>";
 		};
-		8BD71771239756E100559821 /* ZJSDK */ = {
+		8BFC6630259C16980097FB3E /* ZJSDK */ = {
 			isa = PBXGroup;
 			children = (
-				8BD71772239756E100559821 /* ZJLayout */,
-				8BD71777239756E100559821 /* Util */,
-				8BD7177D239756E100559821 /* Ex */,
+				8BFC6631259C16980097FB3E /* UIUtils.swift */,
+				8BFC6632259C16980097FB3E /* ex+UIImage.swift */,
+				8BFC6633259C16980097FB3E /* AppConfigTool.h */,
+				8BFC6634259C16980097FB3E /* ex+Notification.swift */,
+				8BFC6635259C16980097FB3E /* ZJLayout+UI.swift */,
+				8BFC6636259C16980097FB3E /* ex+URL.swift */,
+				8BFC6637259C16980097FB3E /* ex+Int.swift */,
+				8BFC6638259C16980097FB3E /* AlertUtils.swift */,
+				8BFC6639259C16980097FB3E /* ex+UIView.swift */,
+				8BFC663A259C16980097FB3E /* ZJLayout.swift */,
+				8BFC663B259C16980097FB3E /* ex+NSMutableAttrituString.swift */,
+				8BFC663C259C16980097FB3E /* ZJAnimationLayout+Animation.swift */,
+				8BFC663D259C16980097FB3E /* ZJLayerLayout+Layer.swift */,
+				8BFC663E259C16980097FB3E /* AppConfigTool.m */,
+				8BFC663F259C16980097FB3E /* ex+String.swift */,
+				8BFC6640259C16980097FB3E /* ex+Data.swift */,
+				8BFC6641259C16980097FB3E /* ZJCommon.swift */,
 			);
-			path = ZJSDK;
-			sourceTree = "<group>";
-		};
-		8BD71772239756E100559821 /* ZJLayout */ = {
-			isa = PBXGroup;
-			children = (
-				8BD7179D2397840B00559821 /* ZJAnimationLayout+Animation.swift */,
-				8BD7179C2397840B00559821 /* ZJLayerLayout+Layer.swift */,
-				8BD7179F2397840B00559821 /* ZJLayout.swift */,
-				8BD7179E2397840B00559821 /* ZJLayout+UI.swift */,
-			);
-			path = ZJLayout;
-			sourceTree = "<group>";
-		};
-		8BD71777239756E100559821 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				8BD717A52397842D00559821 /* AlertUtils.swift */,
-				8BD717A72397842D00559821 /* AppConfigTool.h */,
-				8BD717A82397842D00559821 /* AppConfigTool.m */,
-				8BD717A62397842D00559821 /* UIUtils.swift */,
-			);
-			path = Util;
-			sourceTree = "<group>";
-		};
-		8BD7177D239756E100559821 /* Ex */ = {
-			isa = PBXGroup;
-			children = (
-				8BD717B32397845B00559821 /* ex+Data.swift */,
-				8BD717B02397845B00559821 /* ex+Int.swift */,
-				8BD717AF2397845B00559821 /* ex+Notification.swift */,
-				8BD717B22397845B00559821 /* ex+NSMutableAttrituString.swift */,
-				8BD717B52397845B00559821 /* ex+String.swift */,
-				8BD717B12397845B00559821 /* ex+UIImage.swift */,
-				8BD717B42397845B00559821 /* ex+UIView.swift */,
-				8BD717AE2397845B00559821 /* ex+URL.swift */,
-				8B2113BA2403CD1000E0617D /* ex+Arr.swift */,
-				8BD717A42397842C00559821 /* ZJExTool-Bridging-Header.h */,
-				8BD717AC2397844B00559821 /* ZJCommon.swift */,
-			);
-			path = Ex;
+			name = ZJSDK;
+			path = ../../ZJSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,26 +319,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BD717B82397845B00559821 /* ex+Int.swift in Sources */,
-				8BD717BD2397845B00559821 /* ex+String.swift in Sources */,
-				8BD717BA2397845B00559821 /* ex+NSMutableAttrituString.swift in Sources */,
-				8BD717B72397845B00559821 /* ex+Notification.swift in Sources */,
-				8B2113BB2403CD1000E0617D /* ex+Arr.swift in Sources */,
-				8BD717A22397840B00559821 /* ZJLayout+UI.swift in Sources */,
-				8BD717A32397840B00559821 /* ZJLayout.swift in Sources */,
+				8BFC6648259C16980097FB3E /* AlertUtils.swift in Sources */,
+				8BFC6643259C16980097FB3E /* ex+UIImage.swift in Sources */,
+				8BFC6650259C16980097FB3E /* ex+Data.swift in Sources */,
+				8BFC6644259C16980097FB3E /* ex+Notification.swift in Sources */,
+				8BFC6649259C16980097FB3E /* ex+UIView.swift in Sources */,
+				8BFC664B259C16980097FB3E /* ex+NSMutableAttrituString.swift in Sources */,
+				8BFC6651259C16980097FB3E /* ZJCommon.swift in Sources */,
+				8BFC6646259C16980097FB3E /* ex+URL.swift in Sources */,
 				8BD71716239756AD00559821 /* ViewController.swift in Sources */,
-				8BD717B92397845B00559821 /* ex+UIImage.swift in Sources */,
-				8BD717BC2397845B00559821 /* ex+UIView.swift in Sources */,
+				8BFC664D259C16980097FB3E /* ZJLayerLayout+Layer.swift in Sources */,
+				8BFC664C259C16980097FB3E /* ZJAnimationLayout+Animation.swift in Sources */,
+				8BFC664F259C16980097FB3E /* ex+String.swift in Sources */,
 				8BD71712239756AD00559821 /* AppDelegate.swift in Sources */,
-				8BD717AD2397844B00559821 /* ZJCommon.swift in Sources */,
 				8BD71714239756AD00559821 /* SceneDelegate.swift in Sources */,
-				8BD717A12397840B00559821 /* ZJAnimationLayout+Animation.swift in Sources */,
-				8BD717AB2397842D00559821 /* AppConfigTool.m in Sources */,
-				8BD717BB2397845B00559821 /* ex+Data.swift in Sources */,
-				8BD717A02397840B00559821 /* ZJLayerLayout+Layer.swift in Sources */,
-				8BD717AA2397842D00559821 /* UIUtils.swift in Sources */,
-				8BD717B62397845B00559821 /* ex+URL.swift in Sources */,
-				8BD717A92397842D00559821 /* AlertUtils.swift in Sources */,
+				8BFC6647259C16980097FB3E /* ex+Int.swift in Sources */,
+				8BFC6645259C16980097FB3E /* ZJLayout+UI.swift in Sources */,
+				8BFC6642259C16980097FB3E /* UIUtils.swift in Sources */,
+				8BFC664A259C16980097FB3E /* ZJLayout.swift in Sources */,
+				8BFC664E259C16980097FB3E /* AppConfigTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,7 +521,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zjzy.ZJExTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/zhangjinliang/Desktop/Project/ZJExTools/ZJExTool/ZJExTool/ZJSDK/Ex/ZJExTool-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -572,7 +542,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zjzy.ZJExTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/zhangjinliang/Desktop/Project/ZJExTools/ZJExTool/ZJExTool/ZJSDK/Ex/ZJExTool-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
