@@ -117,6 +117,34 @@ open class AlertUtils: NSObject {
         
     }
     
+    /// iPhone Alert，  sheet方法
+    ///
+    /// - Parameters:
+    ///   - title: -
+    ///   - message: -
+    ///   - menus: string：闭包的数组 string为菜单文字 闭包为点击后的回调
+    ///   - destructiveIndex: 变红的idnex 默认为-1 那个都不变红
+    open class func showAlertTextField(title: String?,message: String?,placeHolder:String?,content:String,complete:((String?)->Void)?) {
+        let alertVC = UIAlertController.init(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
+        alertVC.addTextField {
+            $0.placeholder = placeHolder
+            $0.text = content
+            $0.clearButtonMode = .whileEditing
+            $0.selectAll(nil)
+        }
+        
+        alertVC.addAction(UIAlertAction.init(title: "确定", style: UIAlertAction.Style.default, handler: { _ in
+            if let textField = alertVC.textFields?.first {
+                complete?(textField.text)
+            }
+        }))
+
+        alertVC.addAction(UIAlertAction.init(title: "取消", style: UIAlertAction.Style.cancel, handler: nil))
+        
+        AppTopVC(vc: UIApplication.shared.keyWindow?.rootViewController)?.present(alertVC, animated: true, completion: nil)
+    }
+    
+    
     open class func dismissAlertViewController() {
         if let vc = AppTopVC(vc: UIApplication.shared.keyWindow?.rootViewController),let alert = vc.presentingViewController {
             alert .dismiss(animated: true, completion: nil)
