@@ -99,7 +99,20 @@ public var SAFERA_right:CGFloat {
 
 public var SAFERA_bottom: CGFloat {
     if #available(iOS 11.0, *) {
-        return UIApplication.shared.windows.first?.safeAreaInsets.bottom ?? 0
+        if #available(iOS 13.0, *) {
+            let windows = UIApplication.shared.windows
+            var h:CGFloat = 0
+            for window in windows {
+                if let obj = NSClassFromString("PGHostedWindow"),window.isKind(of: obj) {
+                    continue
+                }
+                h = window.safeAreaInsets.bottom
+            }
+            return h
+        } else {
+            // Fallback on earlier versions
+            return UIApplication.shared.keyWindow?.safeAreaInsets.bottom ?? 0
+        }
     }
     
     return 0;
@@ -107,7 +120,20 @@ public var SAFERA_bottom: CGFloat {
 
 public var SAFERA_top:CGFloat {
     if #available(iOS 11.0, *) {
-        return UIApplication.shared.windows.first?.safeAreaInsets.top ?? 0
+        if #available(iOS 13.0, *) {
+            let windows = UIApplication.shared.windows
+            var h:CGFloat = 0
+            for window in windows {
+                if let obj = NSClassFromString("PGHostedWindow"),window.isKind(of: obj) {
+                    continue
+                }
+                h = window.safeAreaInsets.top
+            }
+            return h
+        } else {
+            // Fallback on earlier versions
+            return UIApplication.shared.keyWindow?.safeAreaInsets.top ?? 0
+        }
     }
     return 0;
 }
