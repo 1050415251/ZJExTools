@@ -47,9 +47,21 @@ public func ITUNES_LINK(APPID: String) -> String {
 
 public var SAFERA_left: CGFloat {
     if #available(iOS 11.0, *) {
-        return UIApplication.shared.windows.first?.safeAreaInsets.left ?? 0
+        if #available(iOS 13.0, *) {
+            let windows = UIApplication.shared.windows
+            var h:CGFloat = 0
+            for window in windows {
+                if let obj = NSClassFromString("PGHostedWindow"),window.isKind(of: obj) {
+                    continue
+                }
+                h = window.safeAreaInsets.left
+            }
+            return h
+        } else {
+            // Fallback on earlier versions
+            return UIApplication.shared.keyWindow?.safeAreaInsets.left ?? 0
+        }
     }
-   
     return 0;
 }
 
@@ -66,7 +78,20 @@ public var SCREEN_height: CGFloat {
 
 public var SAFERA_right:CGFloat {
     if #available(iOS 11.0, *) {
-        return UIApplication.shared.windows.first?.safeAreaInsets.right ?? 0
+        if #available(iOS 13.0, *) {
+            let windows = UIApplication.shared.windows
+            var h:CGFloat = 0
+            for window in windows {
+                if let obj = NSClassFromString("PGHostedWindow"),window.isKind(of: obj) {
+                    continue
+                }
+                h = window.safeAreaInsets.right
+            }
+            return h
+        } else {
+            // Fallback on earlier versions
+            return UIApplication.shared.keyWindow?.safeAreaInsets.right ?? 0
+        }
     }
     return 0;
 }
