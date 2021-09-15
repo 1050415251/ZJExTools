@@ -37,9 +37,13 @@
     NSURL * openurl = [NSURL URLWithString:url];
     if ([[openurl classForCoder] isEqual:[NSURL classForCoder]]) {
         if ([[UIApplication sharedApplication] canOpenURL:openurl]) {
-            [[UIApplication sharedApplication]openURL:openurl options:@{} completionHandler:^(BOOL success) {
-                
-            }];
+            if (@available(iOS 10.0, *)) {
+                [[UIApplication sharedApplication]openURL:openurl options:@{} completionHandler:^(BOOL success) {
+                    
+                }];
+            } else {
+                // Fallback on earlier versions
+            }
         }
     }
 }
