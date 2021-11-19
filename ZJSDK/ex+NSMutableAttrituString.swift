@@ -11,7 +11,7 @@ import UIKit
 
 extension NSMutableAttributedString {
 
-    func fitAttributedHeight(padding: CGFloat,width:CGFloat) -> CGFloat {
+    public func fitAttributedHeight(padding: CGFloat,width:CGFloat) -> CGFloat {
 
         let bounds = self.boundingRect(with: CGSize(width: width, height: CGFloat(MAXFLOAT)),
                                        options: [.usesLineFragmentOrigin, .usesFontLeading, .usesDeviceMetrics],
@@ -21,7 +21,7 @@ extension NSMutableAttributedString {
     }
 
 
-    func fitWidth(padding: CGFloat,height:CGFloat) -> CGFloat {
+    public func fitWidth(padding: CGFloat,height:CGFloat) -> CGFloat {
 
         let bounds = self.boundingRect(with: CGSize(width: CGFloat(MAXFLOAT), height: height),
                                        options: NSStringDrawingOptions.usesLineFragmentOrigin,

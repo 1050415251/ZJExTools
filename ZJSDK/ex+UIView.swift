@@ -11,9 +11,9 @@ import UIKit
 
 extension UIView {
 
-    public func drawImage() -> UIImage? {
+    public func drawImage(scale: CGFloat = UIScreen.main.scale) -> UIImage? {
         let size = self.bounds.size
-        UIGraphicsBeginImageContextWithOptions(size, false, UIScreen.main.scale)
+        UIGraphicsBeginImageContextWithOptions(size, false, scale)
         if let context = UIGraphicsGetCurrentContext() {
             self.layer.render(in: context)
         }
